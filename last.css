@@ -1,0 +1,91 @@
+/* Estilos para las fuentes descargadas */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto_Mono/static/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto_Mono/static/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto_Mono/static/RobotoMono-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333; /* Color de texto neutral */
+    background-color: #fafafa; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #222; /* Títulos ligeramente más oscuros */
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+section {
+    margin: 4rem 0;
+}
+body {
+    background-color: #f9f9f9; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+}
+
+a {
+    color: #007acc; /* Azul para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005f99; /* Azul más oscuro en hover */
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+.box {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
