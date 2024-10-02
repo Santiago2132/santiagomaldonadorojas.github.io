@@ -17,13 +17,14 @@
     font-style: italic;
     font-weight: 400;
 }
-/* Estilos generales */
+
+/* Estilos generales - Tema Oscuro */
 body {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
     line-height: 1.6;
-    color: #333; /* Color de texto neutral */
-    background-color: #f9f9f9; /* Fondo claro */
+    color: #f0f0f0; /* Texto claro */
+    background-color: #1c1c1c; /* Fondo oscuro */
     margin: 0;
     padding: 0;
 }
@@ -33,14 +34,14 @@ body {
     width: 100vw; /* 100% del ancho de la pantalla */
     margin: 0;
     padding: 2rem 0;
-    background-color: #f2f2f2; /* Gris claro sutil */
+    background-color: #333; /* Fondo ligeramente más claro */
 }
 
 header, footer {
     text-align: center;
     padding: 2rem 0;
-    background-color: #0673bc;
-    color: #fff;
+    background-color: #222; /* Fondo del encabezado y pie de página */
+    color: #fff; /* Texto blanco */
 }
 
 header h1 {
@@ -50,12 +51,12 @@ header h1 {
 header p {
     margin-top: 0;
     font-style: italic;
-    color: #f0f0f0;
+    color: #aaaaaa; /* Texto gris claro */
 }
 
 /* Estilo para botones "Ver Proyecto" */
 button {
-    background-color: #696969; /* Gris oscuro */
+    background-color: #444; /* Gris oscuro */
     color: #ffffff;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -68,58 +69,18 @@ button {
 }
 
 button:hover {
-    background-color: #333; /* Gris más oscuro en hover */
+    background-color: #666; /* Más claro en hover */
 }
 
 /* Estilo para las cajas */
 .box {
     padding: 2rem;
-    background-color: #fff;
+    background-color: #2a2a2a; /* Fondo de las cajas oscuro */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
     margin-bottom: 2rem;
     transition: transform 0.3s ease;
 }
-
-.box:hover {
-    transform: translateY(-5px);
-}
-
-/* Footer */
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-/* Estilos de secciones */
-section {
-    margin: 4rem 0;
-}
-
-.section-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #007acc;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Animaciones (específicas para detalles) */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.box {
-    animation: fadeIn 0.5s ease-out;
-}
-
 
 .box:hover {
     transform: translateY(-5px);
@@ -163,14 +124,14 @@ nav ul li:last-child {
 
 nav ul li a {
     font-size: 1rem;
-    color: #fff;
+    color: #ddd; /* Texto gris claro para los enlaces */
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #d1eaff;
+    color: #fff; /* Texto blanco al pasar el mouse */
 }
 
 /* Animaciones (específicas para detalles) */
@@ -193,3 +154,4 @@ button a {
     color: white;
     text-decoration: none;
 }
+
